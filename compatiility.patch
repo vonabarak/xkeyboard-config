@@ -1,0 +1,20 @@
+--- xkeyboard-config-2.38/symbols/us	2023-02-04 18:31:37.000000000 +0100
++++ xkeyboard-config-2.38/symbols/us	2023-05-03 18:47:52.081877620 +0200
+@@ -1411,7 +1411,7 @@
+   name[Group1]= "Serbo-Croatian (US)";
+
+   key <TLDE> { [ grave, asciitilde ] };
+-  key <AE06> { [ 6, dead_caron, asciicircum, asciicircum ] };
++  key <AE06> { [ 6, asciicircum, dead_caron, asciicircum ] };
+   key <AE08> { [ 8, asterisk, multiply, division ] };
+   key <AE11> { [ minus, underscore, endash, emdash ] };
+   key <AC09> { [ l, L, U01C9, U01C8 ] }; // ǉ ǈ
+@@ -1419,7 +1419,7 @@
+   key <AB01> { [ z, Z, U01C6, U01C5 ] }; // ǆ ǅ
+   key <AD03> { [ e, E, EuroSign, cent ] };
+   key <AC03> { [ d, D, dstroke, Dstroke ] };
+-  key <AC11> { [ dead_acute, quotedbl, apostrophe, apostrophe ] };
++  key <AC11> { [ apostrophe, quotedbl, dead_acute, apostrophe ] };
+   key <SPCE> { [ space, space, nobreakspace, nobreakspace ] };
+   key <AB08> { [ comma, less, U3003, guillemotright ] };
+   key <AB09> { [ period, greater, ellipsis, guillemotleft ] };
